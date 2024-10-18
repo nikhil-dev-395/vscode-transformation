@@ -1,0 +1,156 @@
+{
+  "window.titleBarStyle": "custom",
+
+  "workbench.colorCustomizations": {
+    "sideBar.background": "#303446",
+    "sideBar.foreground": "#FFFFFF",
+    "sideBar.border": "#000000",
+    "titleBar.activeBackground": "#303446",
+    "titleBar.activeForeground": "#FFFFFF"
+  },
+
+  "editor.copyWithSyntaxHighlighting": false,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "editor.emptySelectionClipboard": true,
+  "workbench.editor.enablePreview": false,
+  "window.newWindowDimensions": "inherit",
+  "editor.multiCursorModifier": "alt",
+  "files.trimTrailingWhitespace": true,
+  "diffEditor.renderSideBySide": false,
+  "editor.snippetSuggestions": "top",
+  "editor.detectIndentation": false,
+  "window.nativeFullScreen": true,
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "workbench.editor.showTabs": "none",
+  "editor.minimap.enabled": false,
+  "editor.lineNumbers": "off",
+  "breadcrumbs.enabled": false,
+  "scm.diffDecorations": "none",
+  "editor.hover.delay": 1500,
+  "editor.hover.enabled": true,
+  "workbench.tips.enabled": false,
+  "editor.colorDecorators": false,
+  "git.decorations.enabled": false,
+  "workbench.startupEditor": "none",
+  "editor.lightbulb.enabled": "off",
+  "editor.selectionHighlight": false,
+  "editor.overviewRulerBorder": false,
+  "editor.renderLineHighlight": "none",
+  "editor.occurrencesHighlight": "off",
+  "problems.decorations.enabled": false,
+  "editor.renderControlCharacters": false,
+  "editor.hideCursorInOverviewRuler": true,
+  "editor.gotoLocation.multipleReferences": "goto",
+  "editor.gotoLocation.multipleDefinitions": "goto",
+  "editor.gotoLocation.multipleDeclarations": "goto",
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+  "editor.gotoLocation.multipleImplementations": "goto",
+  "editor.gotoLocation.multipleTypeDefinitions": "goto",
+  "editor.suggestFontSize": 16,
+  "editor.suggestLineHeight": 45,
+  "terminal.integrated.lineHeight": 1.5,
+  "terminal.integrated.fontSize": 16,
+  "search.useIgnoreFiles": false,
+  "search.exclude": {
+    "**/vendor/{[^l],?[^ai]}*": true,
+    "**/public/{[^i],?[^n]}*": true,
+    "**/node_modules": true,
+    "**/dist": true,
+    "**/_ide_helper.php": true,
+    "**/composer.lock": true,
+    "**/package-lock.json": true,
+    "storage": true,
+    ".phpunit.result.cache": true
+  },
+  "editor.wordSeparators": "`~!@#%^&*()=+[{]}\\|;:'\",.<>/?",
+  "emmet.includeLanguages": {
+    "blade": "html",
+    "vue-html": "html",
+    "vue": "html",
+    "react": "html",
+    "javascript": "html"
+  },
+  "vetur.format.options.tabSize": 4,
+  "workbench.tree.indent": 15,
+  "editor.wordWrapColumn": 120,
+  "files.autoSave": "afterDelay",
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "security.workspace.trust.untrustedFiles": "open",
+  "editor.linkedEditing": false,
+  "editor.formatOnSave": true,
+  "editor.fontLigatures": "'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'ss07', 'ss08', 'calt', 'dlig'",
+  "diffEditor.wordWrap": "on",
+  "notebook.output.wordWrap": true,
+  "editor.fontSize": 16,
+  "editor.minimap.maxColumn": 250,
+  "codesnap.containerPadding": "8em",
+  "codesnap.boxShadow": "rgba(0, 0, 0, 0.55) 0px 12px 24px",
+  "explorer.confirmDelete": false,
+  "editor.accessibilitySupport": "off",
+  "chat.editor.wordWrap": "on",
+  "editor.wordWrap": "wordWrapColumn",
+
+  "tailwindCSS.includeLanguages": {
+    "plaintext": "html"
+  },
+  "tailwindCSS.experimental.configFile": null,
+  "editor.fontWeight": "400",
+  "workbench.activityBar.location": "hidden",
+  "workbench.statusBar.visible": false,
+  "editor.inlineSuggest.suppressSuggestions": true,
+  "codesnap.backgroundColor": "#FFC540",
+  "codesnap.showLineNumbers": false,
+  "codesnap.roundedCorners": true,
+  "editor.padding.top": 16,
+  "editor.cursorBlinking": "solid",
+  "editor.stickyScroll.enabled": false,
+  "editor.lineHeight": 45,
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": [
+          "comment",
+          "keyword",
+          "variable.language",
+          "entity.other.attribute-name.html",
+          "entity.other.attribute-name",
+          "keyword.control",
+          "storage.type",
+          "comment",
+          "comment.block",
+          "comment.line"
+        ],
+        // you can change your comments color & styles from here ...
+        "settings": {
+          "foreground": "", // Set your desired color
+          "fontStyle": "" // Set to "italic", "bold", or leave empty for normal
+        }
+      }
+    ]
+  },
+  "vscode_custom_css.imports": [
+    "file:///C:/Users/INFINIX/custom-vscode.css",
+    "file:///C:/Users/INFINIX/custom-vscode-script.js"
+  ],
+  "workbench.iconTheme": "catppuccin-frappe",
+  "workbench.sideBar.location": "right",
+  "workbench.tree.enableStickyScroll": false,
+  "window.commandCenter": false,
+  "workbench.layoutControl.enabled": false,
+  "workbench.editor.editorActionsLocation": "hidden",
+  "workbench.colorTheme": "Catppuccin Frappé",
+  "editor.autoClosingBrackets": "always",
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+  "editor.codeLensFontFamily": "Consolas, 'Courier New', monospace",
+  "editor.guides.highlightActiveIndentation": false,
+  "editor.guides.indentation": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnPaste": true,
+  "window.menuBarVisibility": "compact"
+}

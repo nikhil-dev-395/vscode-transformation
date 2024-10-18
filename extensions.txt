@@ -1,0 +1,4 @@
+1. custom css and js loader
+2. catppuccin icon theme
+3.  catppuccin latte theme
+4. prettier
