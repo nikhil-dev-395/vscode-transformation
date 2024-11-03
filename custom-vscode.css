@@ -13,7 +13,7 @@
 /* Code comment style */
 .mtk3 {
   font-family: Consolas, "Courier New", monospace !important;
-  color: #008c7d !important;
+  color: #4f5971 !important;
 }
 
 /* Sidebar Font */
@@ -63,7 +63,7 @@
 
 /* File Explorer Selected Item */
 .monaco-list.list_id_1 .monaco-list-row.selected {
-  background-color: #4f5971 !important;
+  background-color: #23283b !important;
   opacity: 1 !important;
   border-top: 1px #727b90 solid;
   border-bottom: 1px #727b90 solid;
@@ -171,7 +171,7 @@
   display: block;
 }
 
-/* Command Palette */
+/* Command Palette
 .quick-input-widget {
   font-family: Consolas, "Courier New", monospace !important;
   transform: translateY(-50%) !important;
@@ -179,6 +179,17 @@
   box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.45) !important;
   padding: 10px 10px 18px 10px !important;
   background-image: linear-gradient(#3c3c50 0%, #2a2b38 100%) !important;
+  backdrop-filter: blur(3px) !important;
+  border-radius: 20px !important;
+} */
+
+.quick-input-widget {
+  font-family: Consolas, "Courier New", monospace !important;
+  transform: translateY(-50%) !important;
+  top: 50% !important;
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.45) !important;
+  padding: 10px 10px 18px 10px !important;
+  background-color: #23283b !important; /* Updated background color */
   backdrop-filter: blur(3px) !important;
   border-radius: 20px !important;
 }

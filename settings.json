@@ -1,14 +1,12 @@
 {
   "window.titleBarStyle": "custom",
-
   "workbench.colorCustomizations": {
-    "sideBar.background": "#303446",
+    "sideBar.background": "#23283B",
     "sideBar.foreground": "#FFFFFF",
-    "sideBar.border": "#000000",
-    "titleBar.activeBackground": "#303446",
+    // "sideBar.border": "#000000",
+    "titleBar.activeBackground": "#23283B",
     "titleBar.activeForeground": "#FFFFFF"
   },
-
   "editor.copyWithSyntaxHighlighting": false,
   "diffEditor.ignoreTrimWhitespace": false,
   "editor.emptySelectionClipboard": true,
@@ -94,8 +92,7 @@
   "explorer.confirmDelete": false,
   "editor.accessibilitySupport": "off",
   "chat.editor.wordWrap": "on",
-  "editor.wordWrap": "wordWrapColumn",
-
+  "editor.wordWrap": "on",
   "tailwindCSS.includeLanguages": {
     "plaintext": "html"
   },
@@ -108,7 +105,7 @@
   "codesnap.showLineNumbers": false,
   "codesnap.roundedCorners": true,
   "editor.padding.top": 16,
-  "editor.cursorBlinking": "solid",
+  "editor.cursorBlinking": "phase",
   "editor.stickyScroll.enabled": false,
   "editor.lineHeight": 45,
   "editor.tokenColorCustomizations": {
@@ -141,10 +138,7 @@
   "workbench.iconTheme": "catppuccin-frappe",
   "workbench.sideBar.location": "right",
   "workbench.tree.enableStickyScroll": false,
-  "window.commandCenter": false,
-  "workbench.layoutControl.enabled": false,
-  "workbench.editor.editorActionsLocation": "hidden",
-  "workbench.colorTheme": "Catppuccin Frappé",
+  "workbench.colorTheme": "Tokyo Night Storm",
   "editor.autoClosingBrackets": "always",
   "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
   "editor.codeLensFontFamily": "Consolas, 'Courier New', monospace",
@@ -152,5 +146,8 @@
   "editor.guides.indentation": false,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnPaste": true,
+  "window.commandCenter": false,
+  "workbench.editor.editorActionsLocation": "hidden",
+  "workbench.layoutControl.enabled": false,
   "window.menuBarVisibility": "compact"
 }
