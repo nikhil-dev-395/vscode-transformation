@@ -2,4 +2,4 @@
 2. catppuccin icon theme
 3.  tokyo night
 4. prettier
-5. Dank Mono
+5. font:- Dank Mono
