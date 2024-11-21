@@ -1,4 +1,5 @@
 1. custom css and js loader
 2. catppuccin icon theme
-3.  catppuccin latte theme
+3.  tokyo night
 4. prettier
+5. Dank Mono

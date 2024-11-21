@@ -1,12 +1,17 @@
 {
   "window.titleBarStyle": "custom",
+
   "workbench.colorCustomizations": {
+    // "editor.background": "#282c3d",
     "sideBar.background": "#23283B",
     "sideBar.foreground": "#FFFFFF",
     // "sideBar.border": "#000000",
     "titleBar.activeBackground": "#23283B",
+    "titleBar.border": "#23283B",
+    // "titleBar.inactiveForeground": "#fff",
     "titleBar.activeForeground": "#FFFFFF"
   },
+
   "editor.copyWithSyntaxHighlighting": false,
   "diffEditor.ignoreTrimWhitespace": false,
   "editor.emptySelectionClipboard": true,
@@ -16,7 +21,6 @@
   "files.trimTrailingWhitespace": true,
   "diffEditor.renderSideBySide": false,
   "editor.snippetSuggestions": "top",
-  "editor.detectIndentation": false,
   "window.nativeFullScreen": true,
   "files.insertFinalNewline": true,
   "files.trimFinalNewlines": true,
@@ -80,24 +84,24 @@
     "editor.defaultFormatter": "vscode.json-language-features"
   },
   "security.workspace.trust.untrustedFiles": "open",
-  "editor.linkedEditing": false,
+  "editor.linkedEditing": true,
   "editor.formatOnSave": true,
-  "editor.fontLigatures": "'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'ss07', 'ss08', 'calt', 'dlig'",
+  // "editor.fontLigatures": "'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'ss07', 'ss08', 'calt', 'dlig'",
   "diffEditor.wordWrap": "on",
   "notebook.output.wordWrap": true,
   "editor.fontSize": 16,
   "editor.minimap.maxColumn": 250,
   "codesnap.containerPadding": "8em",
   "codesnap.boxShadow": "rgba(0, 0, 0, 0.55) 0px 12px 24px",
-  "explorer.confirmDelete": false,
   "editor.accessibilitySupport": "off",
   "chat.editor.wordWrap": "on",
-  "editor.wordWrap": "on",
+  "editor.wordWrap": "wordWrapColumn",
+
   "tailwindCSS.includeLanguages": {
     "plaintext": "html"
   },
   "tailwindCSS.experimental.configFile": null,
-  "editor.fontWeight": "400",
+  "editor.fontWeight": "300",
   "workbench.activityBar.location": "hidden",
   "workbench.statusBar.visible": false,
   "editor.inlineSuggest.suppressSuggestions": true,
@@ -107,7 +111,7 @@
   "editor.padding.top": 16,
   "editor.cursorBlinking": "phase",
   "editor.stickyScroll.enabled": false,
-  "editor.lineHeight": 45,
+  "editor.lineHeight": 50,
   "editor.tokenColorCustomizations": {
     "textMateRules": [
       {
@@ -135,10 +139,12 @@
     "file:///C:/Users/INFINIX/custom-vscode.css",
     "file:///C:/Users/INFINIX/custom-vscode-script.js"
   ],
-  "workbench.iconTheme": "catppuccin-frappe",
+  "workbench.iconTheme": "catppuccin-macchiato",
   "workbench.sideBar.location": "right",
   "workbench.tree.enableStickyScroll": false,
-  "workbench.colorTheme": "Tokyo Night Storm",
+  "window.commandCenter": false,
+  "workbench.layoutControl.enabled": false,
+  "workbench.editor.editorActionsLocation": "hidden",
   "editor.autoClosingBrackets": "always",
   "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
   "editor.codeLensFontFamily": "Consolas, 'Courier New', monospace",
@@ -146,8 +152,12 @@
   "editor.guides.indentation": false,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnPaste": true,
-  "window.commandCenter": false,
-  "workbench.editor.editorActionsLocation": "hidden",
-  "workbench.layoutControl.enabled": false,
-  "window.menuBarVisibility": "compact"
+  "window.menuBarVisibility": "compact",
+  "html.format.indentInnerHtml": true,
+  "terminal.integrated.fontFamily": "Dank Mono",
+  "editor.fontFamily": "Dank Mono",
+  "html.format.indentHandlebars": true,
+  "workbench.colorTheme": "Tokyo Night Storm",
+  "errorLens.enabled": true,
+  "javascript.updateImportsOnFileMove.enabled": "always"
 }
